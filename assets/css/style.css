@@ -21,6 +21,7 @@ html, body{
     justify-items: center;
     column-gap: 100px;
     row-gap: 40px;
+    margin-top: 70px;
 }
 
 .wrapper-child{
@@ -38,4 +39,12 @@ h1{
 img{
     
     border: 1px dotted black
+}
+
+.hero{
+    height:520px;
+}
+
+#TheOffice>img{
+    height:900px;
 }
