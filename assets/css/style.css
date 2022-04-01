@@ -14,11 +14,21 @@ html, body{
 }
 
 .wrapper{
-    height: 100vh;
+    height: auto;
     display:grid;
     justify-content: center;
     align-items: center;
+    justify-items: center;
     column-gap: 100px;
+    row-gap: 40px;
+}
+
+.wrapper-child{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    row-gap: 10px;
 }
 
 h1{
@@ -26,5 +36,6 @@ h1{
 }
 
 img{
-    height: 80vh;
+    
+    border: 1px dotted black
 }
