@@ -102,6 +102,7 @@ img{
 	padding: 16px 20px 16px 20px;
 	margin: 0px 0px 20px 0px;
 	font: 16px/20px 'Comic Sans MS', sans-serif;
+    font-size: 70%;
 	border-radius: 10px;
     text-align:left;
 }
