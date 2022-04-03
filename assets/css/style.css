@@ -13,6 +13,22 @@ html, body{
     
 }
 
+:root{
+    --chat-thread-bgd-color-1:        #fbe1e3;
+    --chat-thread-bgd-color-2:        #fdf3df;
+    --chat-thread-msg-arrow-size:   15px;
+    --chat-thread-avatar-size:      50px;
+    --chat-thread-offset: 30px;
+}
+
+nav{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+}
+
 .wrapper{
     height: auto;
     display:grid;
@@ -47,4 +63,93 @@ img{
 
 #TheOffice>img{
     height:900px;
+}
+
+.rabbit-hole-chat-wrapper{
+    display:grid;
+    border: 2px dotted transparent;
+    width: 1000px;
+    align-items: center;
+    justify-content: center;
+}
+
+.rabbit-hole-chat{
+    width:660px;
+    border: 1px dotted rgb(231, 218, 218)
+}
+
+.heading{
+    border: 2px dotted transparent;
+    text-align: center;
+}
+
+
+
+/*--------------*/
+
+
+.chat-thread {
+	margin: 24px auto 0 auto;
+	padding: 0 20px 0 0;
+	list-style: none;
+    overflow-x: hidden;
+}
+
+.chat-thread li {
+	position: relative;
+	clear: both;
+	display: inline-block;
+	padding: 16px 20px 16px 20px;
+	margin: 0px 0px 20px 0px;
+	font: 16px/20px 'Noto Sans', sans-serif;
+	border-radius: 10px;
+    text-align:left;
+}
+
+/* Chat - Speech Bubble Arrow */
+.chat-thread li:after {
+	position: absolute;
+    top: var(--chat-thread-msg-arrow-size);
+    margin-left: 44px;
+	content: '';
+	width: 0;
+	height: 0;
+	border-top: var(--chat-thread-msg-arrow-size) solid var(--chat-thread-bgd-color-1);
+}
+
+.chat-thread .rabbit-1 {
+	animation: show-chat-odd 0.15s 1 ease-in;
+	-moz-animation: show-chat-odd 0.15s 1 ease-in;
+	-webkit-animation: show-chat-odd 0.15s 1 ease-in;
+	float: right;
+	margin-right: var(--chat-thread-offset);
+    width: 295px;
+	color: rgb(0, 0, 0);
+	background-color: var(--chat-thread-bgd-color-1);
+}
+
+
+.chat-thread .rabbit-2 {
+	animation: show-chat-even 0.15s 1 ease-in;
+	-moz-animation: show-chat-even 0.15s 1 ease-in;
+	-webkit-animation: show-chat-even 0.15s 1 ease-in;
+	float: left;
+	margin-left: var(--chat-thread-offset);
+	color: #000;
+    width: 295px;
+	background-color: var(--chat-thread-bgd-color-2);
+
+}
+
+.right-arrow{
+    width:10px;
+    height:10px;
+    background-color: green;
+    float:right;
+    margin-left: 302px;
+}
+
+.two_rabbits_image{
+    width:660px;
+    border: 0px;
 }
