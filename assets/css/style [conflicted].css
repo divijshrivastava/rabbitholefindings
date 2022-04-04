@@ -115,7 +115,7 @@ img{
 .rabbit-1-text{
     border: 1px solid transparent;
     padding: 16px 20px 16px 20px;
-    border-radius: 0px 30px 0px 30px;
+    border-radius: 0px 10px 0px 10px;
     
 	background-color: var(--chat-thread-bgd-color-1);
 }
@@ -123,31 +123,27 @@ img{
  .rabbit-2 {
 	position: relative;
 	clear: both;
-	display: grid;
-		margin: 0px 0px 20px 0px;
+	display: inline-block;
+	padding: 16px 20px 16px 20px;
+	margin: 0px 0px 20px 0px;
 	font: 16px/20px 'Comic Sans MS', sans-serif;
     font-size: 70%;
+	border-radius: 10px;
     text-align:left;
-    border: 1px solid transparent;
 }
 
-.rabbit-2-text{
-    padding: 16px 20px 16px 20px;
-	border-radius: 30px 0px;
-
-	background-color: var(--chat-thread-bgd-color-2);
-
+/* Chat - Speech Bubble Arrow */
+.chat-thread li:after {
+	position: absolute;
+    top: var(--chat-thread-msg-arrow-size);
+    margin-left: 44px;
+	content: '';
+	width: 0;
+	height: 0;
+	border-top: var(--chat-thread-msg-arrow-size) solid var(--chat-thread-bgd-color-1);
 }
 
-.rabbit-2-arrow{
-
-    margin-left: 10px;
-
-}
-
-
-
-.rabbit-1 {
+.chat-thread .rabbit-1 {
 	animation: show-chat-odd 0.15s 1 ease-in;
 	-moz-animation: show-chat-odd 0.15s 1 ease-in;
 	-webkit-animation: show-chat-odd 0.15s 1 ease-in;
@@ -158,7 +154,7 @@ img{
 }
 
 
-.rabbit-2 {
+.chat-thread .rabbit-2 {
 	animation: show-chat-even 0.15s 1 ease-in;
 	-moz-animation: show-chat-even 0.15s 1 ease-in;
 	-webkit-animation: show-chat-even 0.15s 1 ease-in;
@@ -166,10 +162,17 @@ img{
 	margin-left: var(--chat-thread-offset);
 	color: #000;
     width: 295px;
+	background-color: var(--chat-thread-bgd-color-2);
 
 }
 
-
+.right-arrow{
+    width:10px;
+    height:10px;
+    background-color: green;
+    float:right;
+    margin-left: 302px;
+}
 
 .two_rabbits_image{
     width:660px;
@@ -182,12 +185,4 @@ img{
     border:10px solid transparent;
     border-right-color: var(--chat-thread-bgd-color-1);
     border-top-color: var(--chat-thread-bgd-color-1);
-}
-
-.element-2{
-     width:0;
-    height:0;
-    border:10px solid transparent;
-    border-left-color: var(--chat-thread-bgd-color-2);
-    border-top-color: var(--chat-thread-bgd-color-2);
 }
