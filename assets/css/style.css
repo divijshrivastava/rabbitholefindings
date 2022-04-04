@@ -27,6 +27,26 @@ nav {
     justify-content: center;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 20px;
+    row-gap: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+}
+
+nav a:active, a:visited{
+    color: #000;
+}
+
+
+
+nav a:hover{
+    background-color: #eee;
+    border: 1px solid transparent;
 }
 
 .wrapper {
