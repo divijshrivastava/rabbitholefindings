@@ -27,7 +27,6 @@ nav {
     justify-content: center;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 20px;
-    row-gap: 20px;
 }
 
 nav a{
@@ -35,23 +34,14 @@ nav a{
     text-align: center;
     padding: 10px;
     border-radius: 10px;
-    border: 1px solid #eee;
-    box-shadow: 5px 5px 3px rgb(123, 108, 108);
-
 }
 
-nav a:active, a:visited{
+nav a:active{
     color: #000;
-    border: 2px solid transparent;
-    
 }
-
-
 
 nav a:hover{
-    background-color: rgb(7, 0, 0);
-    border: 1px solid transparent;
-    color: rgb(255, 254, 254);
+    background-color: #eee;
 }
 
 .wrapper {
