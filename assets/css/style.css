@@ -30,7 +30,7 @@ nav {
     row-gap: 20px;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     text-align: center;
     padding: 10px;
@@ -40,15 +40,15 @@ nav a{
 
 }
 
-nav a:active, a:visited{
+nav a:active, a:visited {
     color: #000;
     border: 2px solid transparent;
-    
+
 }
 
 
 
-nav a:hover{
+nav a:hover {
     background-color: rgb(7, 0, 0);
     border: 1px solid transparent;
     color: rgb(255, 254, 254);
@@ -86,7 +86,7 @@ img {
     height: 520px;
 }
 
-#TheOffice>img {
+.wrapper-child>img {
     height: 900px;
 }
 
@@ -107,11 +107,6 @@ img {
     border: 2px dotted transparent;
     text-align: center;
 }
-
-
-
-/*--------------*/
-
 
 .chat-thread {
     margin: 24px auto 0 auto;
@@ -141,7 +136,6 @@ img {
     border: 1px solid transparent;
     padding: 16px 20px 16px 20px;
     border-radius: 0px 30px 0px 30px;
-
     background-color: var(--chat-thread-bgd-color-1);
 }
 
