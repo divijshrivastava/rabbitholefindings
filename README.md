@@ -47,7 +47,7 @@
    </ol>
    <p>Our team will review your contribution, and if everything looks good, your changes will be merged into the main repository.</p>
    <h2>Feedback and Support</h2>
-   <p>We value your feedback and suggestions. If you encounter any issues, have ideas for improvement, or simply want to share your thoughts, please don't hesitate to reach out. You can contact us by <a href="mailto:hello@rabbitholefindings.com" target="_new">email</a> or <a href="https://github.com/divijish/rabbitholefindings/issues" target="_new">open an issue</a> on GitHub.</p>
+   <p>We value your feedback and suggestions. If you encounter any issues, have ideas for improvement, or simply want to share your thoughts, please don't hesitate to reach out. You can contact us by <a href="mailto:hello@rabbitholefindings.com" target="_new">email</a> or <a href="https://github.com/divijshrivastava/rabbitholefindings/issues" target="_new">open an issue</a> on GitHub.</p>
    <h2>License</h2>
    <p>This project is licensed under the <a href="https://opensource.org/licenses/MIT" target="_new">MIT License</a>. Feel free to use the code, modify it, or distribute it as per the terms of the license.</p>
    <hr>
