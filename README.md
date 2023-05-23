@@ -1,6 +1,6 @@
 
    <h1>RabbitHoleFindings</h1>
-   <p>Welcome to RabbitHoleFindings, a place for unconcluded conversations between two friendly rabbits. This website is a fun project designed to bring a smile to your face as you delve into the whimsical world of rabbit banter.</p>
+   <p>Welcome to <a href="https://rabbitholefindings.netlify.app" target="_new">RabbitHoleFindings</a>, a place for unconcluded conversations between two friendly rabbits. This website is a fun project designed to bring a smile to your face as you delve into the whimsical world of rabbit banter.</p>
    <h2>Introduction</h2>
    <p>RabbitHoleFindings showcases a series of pointless but enjoyable conversations between two adorable rabbits. With a touch of humor and charm, these conversations will brighten your day and provide a light-hearted escape from the mundane.</p>
    <h2>Features</h2>
