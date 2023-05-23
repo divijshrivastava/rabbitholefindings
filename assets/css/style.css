@@ -37,7 +37,7 @@ nav a {
     border-radius: 10px;
     border: 1px solid rgb(2, 2, 2);
     box-shadow: 5px 5px 3px rgb(123, 108, 108);
-    color:#000;
+    color: #000;
 }
 
 nav a:active, a:visited {
@@ -90,7 +90,7 @@ img {
 .rabbit-hole-chat-wrapper {
     display: grid;
     border: 2px dotted transparent;
-    width: 1000px;
+    width: auto;
     align-items: center;
     justify-content: center;
 }
@@ -206,4 +206,110 @@ img {
     border: 10px solid transparent;
     border-left-color: var(--chat-thread-bgd-color-2);
     border-top-color: var(--chat-thread-bgd-color-2);
+}
+
+/* Default styles */
+
+/* Add your existing CSS styles here */
+
+/* Media queries for responsiveness */
+
+@media only screen and (max-width: 768px) {
+    /* Styles for screens up to 768px wide */
+
+    body {
+        font-size: 14px;
+    }
+
+    /* Modify the styles of your navigation */
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin-bottom: 10px;
+    }
+
+    /* Adjust the size of the hero image */
+
+    .hero {
+        width: 760px;
+        height: auto;
+    }
+
+    /* Adjust the styles of the chat threads */
+
+    .chat-thread {
+        padding: 20px;
+    }
+
+    .chat-thread .rabbit-1,
+    .chat-thread .rabbit-2 {
+        flex-direction: column;
+    }
+
+    .chat-thread .rabbit-1 .element,
+    .chat-thread .rabbit-1 .element-2,
+    .chat-thread .rabbit-2 .element,
+    .chat-thread .rabbit-2 .element-2 {
+        display: none;
+    }
+
+    /* Adjust the styles of the two_rabbits_image */
+
+    .two_rabbits_image {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Styles for screens up to 480px wide */
+
+    body {
+        font-size: 12px;
+    }
+
+    /* Modify the styles of the navigation */
+
+    nav a {
+        font-size: 14px;
+    }
+
+    /* Adjust the size of the hero image */
+
+    .hero {
+        width: 460px;
+        height: auto;
+    }
+
+    /* Adjust the styles of the chat threads */
+
+    .chat-thread {
+        padding: 10px;
+    }
+
+    .chat-thread .rabbit-1-text,
+    .chat-thread .rabbit-2-text {
+        font-size: 12px;
+    }
+
+    /* Adjust the styles of the two_rabbits_image */
+
+    .two_rabbits_image {
+        width: 440px;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .wrapper-child>img {
+        width: 380px;
+    }
+
+    .rabbit-hole-chat{
+        width:470px;
+    }
 }
